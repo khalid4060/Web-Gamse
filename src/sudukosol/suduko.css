@@ -1,0 +1,20 @@
+.Grid{
+    display: grid;
+    grid-template-columns: repeat(9,40px);
+    border: 1px solid black;
+    width: 360px;
+
+     margin: 20px;
+
+  
+}
+.cell{
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cell > input{
+    width: 20px;
+}

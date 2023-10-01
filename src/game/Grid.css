@@ -1,0 +1,69 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.GridContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 48px);
+    border: 1px solid black;
+    gap: 30px;
+    justify-content: center;
+    height: 68vh;
+    padding: 20px;
+}
+
+.colum {
+    border: 1px solid black;
+}
+
+.Green {
+    background-color: green;
+    /* border: 1px solid black; */
+    pointer-events: none;
+    height: 50px;
+        width: 48px;
+        font-size: xx-large;
+        border-radius: 5px;
+        text-align: center;
+}
+.Gray{
+background-color: gray;
+    /* border: 1px solid black; */
+    pointer-events: none;
+    height: 50px;
+        width: 48px;
+        font-size: xx-large;
+        border-radius: 5px;
+        text-align: center;
+}
+.Yellow{
+    background-color: rgb(255, 0, 0);
+    /* border: 1px solid black; */
+    pointer-events: none;
+    height: 50px;
+        width: 48px;
+        font-size: xx-large;
+        border-radius: 5px;
+        text-align: center;
+    
+}
+.cell{
+        /* border: 1px solid black; */
+        height: 50px;
+        width: 48px;
+        font-size: xx-large;
+        border-radius: 5px;
+        text-align: center;
+        
+        
+}
+
+.cell>input {
+    width: 42px;
+    height: 46px;
+    font-size: xx-large;
+    border-radius: 5px;
+    text-align: center;
+}
+

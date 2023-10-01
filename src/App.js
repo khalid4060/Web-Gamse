@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+
+//import './App.css';
+import Password from './Password/Password';
+// import './Password.css'
+import './Click/click.css'
+// import './sudukosol/suduko.css'
+import Click from './Click/Click';
+import React from 'react';
+import Suduko from './sudukosol/Suduko';
+import Grid from "./game/Grid";
+import "./game/Grid.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Password/> */}
+      {/* <Click /> */}
+      {/* <Suduko /> */}
+      <Grid/>
     </div>
   );
 }

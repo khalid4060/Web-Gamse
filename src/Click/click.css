@@ -1,0 +1,11 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+}
+.point{
+    display: inline-block;
+     position: absolute;
+    
+}
